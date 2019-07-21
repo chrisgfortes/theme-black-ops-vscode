@@ -8,11 +8,14 @@
   "engines": {
     "vscode": "*"
   },
-  "categories": [
+  "keywords": [
     "Themes",
     "Monokai",
     "Black Ops",
     "Black Ops theme"
+  ],
+  "categories": [
+    "Themes"
   ],
   "repository": {
     "url": "https://github.com/chrisgfortes/theme-black-ops-vscode",
