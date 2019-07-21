@@ -1,14 +1,23 @@
 {
   "name": "theme-black-ops-vscode",
   "displayName": "Black Ops Theme",
-  "description": "VSCode Black Theme",
+  "description": "VSCode Black Ops Theme",
   "version": "1.0.0",
+  "publisher": "chrisgfortes",
+  "license": "MIT",
   "engines": {
-    "vscode": "^1.35.0"
+    "vscode": "*"
   },
   "categories": [
-    "Themes"
+    "Themes",
+    "Monokai",
+    "Black Ops",
+    "Black Ops theme"
   ],
+  "repository": {
+    "url": "https://github.com/chrisgfortes/theme-black-ops-vscode",
+    "type": "git"
+  },
   "contributes": {
     "iconThemes": [
       {
