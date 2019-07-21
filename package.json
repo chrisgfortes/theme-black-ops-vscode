@@ -1,0 +1,28 @@
+{
+  "name": "theme-black-ops-vscode",
+  "displayName": "Black Ops Theme",
+  "description": "VSCode Black Theme",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.35.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "vs-seti",
+        "label": "Black Ops - Icons",
+        "path": "./icons/vs-seti-icon-theme.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Black Ops - Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Black Ops Theme-color-theme.json"
+      }
+    ]
+  }
+}
