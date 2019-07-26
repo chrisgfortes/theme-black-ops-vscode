@@ -491,6 +491,27 @@
 			"settings": {
 				"foreground": "#75715e"
 			}
+    },
+    {
+      "name": "Units",
+			"scope": "keyword.other.unit",
+			"settings": {
+				"foreground": "#f92672"
+			}
+    },
+    {
+      "name": "Properties",
+			"scope": "support.constant",
+			"settings": {
+				"foreground": "#66d9ef"
+			}
+    },
+    {
+      "name": "CSS Variables",
+      "scope": "variable.scss",
+      "settings": {
+				"foreground": "#FFFFFF"
+			}
     }
   ]
 }

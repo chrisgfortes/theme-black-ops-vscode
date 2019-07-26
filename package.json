@@ -2,7 +2,7 @@
   "name": "theme-black-ops-vscode",
   "displayName": "Black Ops Theme",
   "description": "VSCode Black Ops Theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "chrisgfortes",
   "license": "MIT",
   "engines": {
