@@ -62,7 +62,7 @@
 		"tab.inactiveBackground": "#252526",
 
 		// Button
-		"button.background": "#62674a",
+		"button.background": "#0086e6",
 
 		// Diff Editor
 		"diffEditor.insertedTextBackground": "#66852880", // middle of #272822 and #a6e22e
@@ -86,11 +86,12 @@
     "peekViewResult.selectionBackground": "#414339",
     "peekViewResult.matchHighlightBackground": "#75715E",
     "peekViewEditor.matchHighlightBackground": "#75715E",
+
+    "gitDecoration.modifiedResourceForeground": "#e2c79d",
 	},
 	"tokenColors": [
     {
       "settings": {
-        "background": "#272822",
         "foreground": "#F8F8F2"
       }
     },
@@ -100,7 +101,6 @@
 				"source.groovy.embedded"
 			],
       "settings": {
-        "background": "#272822",
         "foreground": "#F8F8F2"
       }
     },
@@ -290,7 +290,6 @@
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "background": "#F92672",
         "fontStyle": "",
         "foreground": "#F8F8F0"
       }
@@ -299,7 +298,6 @@
       "name": "Invalid deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "background": "#AE81FF",
         "foreground": "#F8F8F0"
       }
     },
