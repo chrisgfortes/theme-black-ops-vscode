@@ -5,6 +5,10 @@
   "version": "1.0.3",
   "publisher": "chrisgfortes",
   "license": "MIT",
+  "scripts": {
+    "vs-publish": "vsce publish",
+    "vs-login": "vsce login publisher chrisgfortes"
+  },
   "engines": {
     "vscode": "*"
   },
