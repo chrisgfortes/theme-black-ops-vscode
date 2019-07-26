@@ -12,16 +12,18 @@
 		// Active Bar
 		"activityBar.background": "#333333",
     "activityBar.foreground": "#FFFFFF",
-		"activityBarBadge.background": "#bb8d00",
+		"activityBarBadge.background": "#0086e6",
 		"activityBarBadge.foreground": "#FFFFFF",
 
 		// Editor
 		"editor.background": "#181818",
 		"editorGroupHeader.tabsBackground": "#252526",
 		"editor.selectionHighlightBackground": "#515348",
-		"editor.selectionBackground": "#34352f",
-		"editor.inactiveSelectionBackground": "#828869",
+		"editor.selectionBackground": "#3F413D",
+		"editor.inactiveSelectionBackground": "#3F413D",
 		"editor.wordHighlightBackground": "#34352f",
+    "editor.findMatchBackground": "#5E2E0A",
+    "editor.findMatchHighlightBackground": "#5E2E0A",
 		"editor.foreground": "#F8F8F2",
 		"editorHoverWidget.background": "#414339",
     "editorHoverWidget.border": "#75715E",
@@ -30,8 +32,7 @@
     "editorGroup.border": "#34352f",
     
     // Errors and warnings:
-		"editorError.foreground": "#EC3A37F5",
-		"editorWarning.border": "#FFFFFF00",
+		"editorError.foreground": "#ff6d6df5",
 		"editorWarning.foreground": "#ffd85f",
 
     // Gutter: The gutter contains the glyph margins and the line numbers:
@@ -45,7 +46,7 @@
 		"list.activeSelectionForeground": "#FFFFFF", // Cor do texto na lista ao clique
 		"list.focusBackground": "#34352f", // Focus background na lista navegando keyboard 
 		"list.focusForeground": "#FFFFFF", // Focus texto na lista navegando keyboard
-		"list.highlightForeground": "#c39404",
+		"list.highlightForeground": "#52b7ff",
 		"list.hoverBackground": "#2A2D2E", // Hover do item na lista
 		"list.hoverForeground": "#CCCCCC",
 		"list.inactiveSelectionBackground": "#34352f", // Background na lista quando não é clicado
@@ -369,7 +370,7 @@
       "name": "{} - Embedded",
       "scope": "punctuation.section.embedded",
       "settings": {
-        "foreground": "#ff9900"
+        "foreground": "#FFFFFF"
       }
     },
     {
