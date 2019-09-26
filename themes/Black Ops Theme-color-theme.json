@@ -512,6 +512,23 @@
       "settings": {
 				"foreground": "#FFFFFF"
 			}
+    },
+    {
+      "name": "Constants colors",
+      "scope": "constant.other.color",
+      "settings": {
+				"foreground": "#AE81FF"
+			}
+    },
+    {
+      "name": "Values",
+      "scope": [
+        "punctuation.definition.interpolation.end.bracket.curly.scss",
+        "variable.interpolation.scss"
+      ],
+      "settings": {
+				"foreground": "#f92672"
+			}
     }
   ]
 }
