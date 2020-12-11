@@ -1,6 +1,10 @@
 {
-	"name": "Black Ops Theme",
-	"type": "dark",
+	"name": "Black Ops",
+  "type": "dark",
+  "galleryBanner": {
+    "color": "#0C001F",
+    "theme": "dark"
+  },
 	"colors": {		
 		// Sidebar
 		"sideBar.background": "#252526",
@@ -57,12 +61,23 @@
     "list.errorForeground": "#ff6d6df5",
 		
 		// Tabs
-		"tab.activeBackground": "#34352f",
+		"tab.activeBackground": "#252526",
 		"tab.activeBorder": "#ffd85f",
 		"tab.inactiveBackground": "#252526",
 
 		// Button
-		"button.background": "#0086e6",
+    "button.background": "#4C5A62",
+    // "button.foreground": "",
+    "button.hoverBackground": "#5a6a74",
+
+    // Text Colors — Colors inside a text document, such as the welcome page.
+    // "textBlockQuote.background": "",
+    // "textBlockQuote.border": "",
+    // "textCodeBlock.background": "",
+    "textLink.activeForeground": "#b8db66c4",
+    "textLink.foreground": "#9dad79",
+    // "textPreformat.foreground": "",
+    // "textSeparator.foreground": "",
 
 		// Diff Editor
 		"diffEditor.insertedTextBackground": "#66852880", // middle of #272822 and #a6e22e
@@ -87,7 +102,11 @@
     "peekViewResult.matchHighlightBackground": "#75715E",
     "peekViewEditor.matchHighlightBackground": "#75715E",
 
-    "gitDecoration.modifiedResourceForeground": "#e2c79d",
+    "gitDecoration.modifiedResourceForeground": "#ffd85f",
+    "gitDecoration.addedResourceForeground": "#b8db66c4",
+    "gitDecoration.conflictingResourceForeground": "#ff0000",
+    "gitDecoration.deletedResourceForeground": "#ff0000",
+    "gitDecoration.untrackedResourceForeground": "#50FA7B",
 	},
 	"tokenColors": [
     {
